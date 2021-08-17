@@ -98,7 +98,7 @@ if (isset($_GET['deleteFile']) && $_GET['deleteFile'] != "") {
                     if ($extension == 'png' || $extension == 'jpg') {
                         echo "<div class='col-lg-3 card m-2' style='height: 200px !important'>";
                         echo "<div class='card-body'>";
-                        echo "<b><img alt=" . $myFile->title . " src='../uploads/" . Misc::getFolder($_id) . "/" . $myFile->file . "' width='100%' height='100px' /></b>";
+                        echo "<b><img alt=" . $myFile->title . " src='../image.jpg' width='100%' height='100px' /></b>";
                         echo "</div>";
                         echo "<div class='mb-2'><a class='btn btn-success' href='../uploads/" . $root . "' download=" . str_replace(' ', '', $myFile->title) . ">Download</a> 
                         <a href='?deleteFile={$root}&size={$myFile->size}' class='btn btn-danger'>Delete</a>

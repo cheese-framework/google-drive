@@ -11,4 +11,5 @@ const MAX_SIZE_UPLOAD = 105048576;
 
 // ENVS CONFIGURATIONS
 
-define('SHOW_ERROR_DETAIL', true);
+// Set to false on production
+define('SHOW_ERROR_DETAIL', false);
